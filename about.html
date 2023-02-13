@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin's Portofolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600&family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
+</head>
+  
+<style>
+    .video-bg{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: repeat;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    @media(max-width: 900px){
+        .video-bg{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-repeat: repeat;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    }
+
+    @media(max-width: 750px){
+        .video-bg{
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-repeat: repeat;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    }
+
+
+</style>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">KEVIN</label>
+        
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <video autoplay loop muted plays-inline class="video-bg">
+        <source src="./Stars - 82360.mp4">
+    </video> 
+    <section>
+        <div id="deskripsi">
+            <div class="card">
+                <div class="card__content">
+                    <h1>Kevin Audreylius</h1>
+                    <img class="fotodiri" src="foto_diri-removebg-preview.png" alt="foto-kevin" >
+                    <div class="cardkonten">
+                        <p>Hi, glad to see you visited my profile!
+                        My name is Kevin Audreylius or can be called Audrey. I am 18 years 
+                        old. I was born in Jakarta, Indonesia. I am a new student at Bina 
+                        Nusantara University. I majored in Computer Science. Apart from
+                        studying, I am active in the BNCC organization and am interested 
+                        in becoming a candidate for activist. I like learning coding and 
+                        design, and that's why I chose the Front End Development course.<br><br>
+                        
+                        I am a person who likes challenges, problem-solving, and designing.
+                        Majoring in Computer science made me a person who is interested in
+                        problem-solving, creativity, and time discipline. Besides that, my
+                        hobby is playing badminton. My goals are to become a programmer and 
+                        become a badminton athlete. My life motto is never to give up before 
+                         we achieve a result or award.</p>
+                    
+                        <!-- <img class="fotodiri" src="foto_diri-removebg-preview.png" alt="foto-kevin" width="250px" > -->
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div id="pendidikan">
+            <h1>Educational Background</h1>
+            <table class="tabel">
+                <tr>
+                    <th>Tahun</th>
+                    <th>Pendidikan</th>
+                </tr>
+                <tr>
+                    <td>2026 - 2028</td>
+                    <td>Harvard University</td>
+                </tr>
+                <tr>
+                    <td>2022 - 2026</td>
+                    <td>Binus University</td>
+                </tr>
+                <tr>
+                    <td>2019 - 2022</td>
+                    <td>Bunda Hati Kudus Senior High School</td>
+                </tr>
+                <tr>
+                    <td>2016 - 2019</td>
+                    <td>Bunda Hati Kudus Junior High School</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="software">
+            <h1>Programming Language</h1>
+            <div class="xcard">
+                <div class="xcard1">
+                    <h2 class="namahtml">HTML</h2>
+                    <img class="htmllogo" src="logohtml.png" alt="c">
+                </div>
+                <div class="xcard2">
+                    <h2 class="namacss">CSS</h2>
+                    <img class="csslogo" src="logocss.png" alt="css">
+                </div>
+                <div class="xcard3">
+                    <h2 class="namajs">JS</h2>
+                    <img class="jslogo" src="logojs.png" alt="js">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
